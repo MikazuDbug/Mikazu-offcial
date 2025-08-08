@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mikazu Official</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mikazu Official</h1>
+    <button id="darkToggle">🌓</button>
+  </header>
+
+  <section id="loginSection">
+    <h2>Login Member</h2>
+    <form id="loginForm">
+      <input type="email" id="loginEmail" placeholder="Email" required />
+      <input type="password" id="loginPassword" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p id="loginError" style="display:none;color:red;">Email atau Password salah!</p>
+  </section>
+
+  <section id="memberArea" style="display:none;">
+    <h2>Selamat datang, <span id="memberName"></span>!</h2>
+    <button id="logoutBtn">Logout</button>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Pesan" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Mikazu Official</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
